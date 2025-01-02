@@ -1,7 +1,7 @@
 {
     "languages": [
-        { "code": "en", "label": "EN" },
         { "code": "pt", "label": "PT" },
+        { "code": "en", "label": "EN" },
         { "code": "fr", "label": "FR" }
     ]
 }
