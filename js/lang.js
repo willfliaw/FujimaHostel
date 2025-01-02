@@ -58,6 +58,6 @@ document.addEventListener("DOMContentLoaded", () => {
         fetchTranslations(e.target.value);
     });
 
-    // Load default language (English) on page load
-    fetchTranslations("en");
+    // Load default language (Portuguese) on page load
+    fetchTranslations("pt");
 });

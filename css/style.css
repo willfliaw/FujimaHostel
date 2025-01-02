@@ -12,9 +12,9 @@
     /* Colors */
     --white-color: #fff;
     --dark-color: #252525;
-    --primary-color: #1e3a8a;
-    --secondary-color: #7dadf9;
-    --light-color: #f4f6fa;
+    --primary-color: #258a1e;
+    --secondary-color: #7ff97d;
+    --light-color: #f4faf5;
     --medium-gray-color: #ccc;
 
     /* Font size */
@@ -101,10 +101,20 @@ header .navbar {
     justify-content: space-between;
 }
 
+.navbar .nav-logo {
+    display: flex;
+}
+
 .navbar .nav-logo .logo-text {
     color: var(--white-color);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
+}
+
+.navbar .nav-logo .logo-icon {
+    height: var(--font-size-xl);
+    width: auto;
+    margin-right: 8px;
 }
 
 .navbar .nav-menu {
