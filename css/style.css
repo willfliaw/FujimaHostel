@@ -266,6 +266,25 @@ header .navbar {
     color: var(--secondary-color);
 }
 
+.about-section .about-details .social-link-list .social-link .booking-icon {
+    height: var(--font-size-l);
+    width: auto;
+    vertical-align: middle;
+}
+
+.about-section .about-details .social-link-list .social-link .booking-icon .squircle {
+    fill: var(--primary-color);
+    transition: fill 0.2s ease;
+}
+
+.about-section .about-details .social-link-list .social-link .booking-icon .bdot {
+    fill: var(--light-color);
+}
+
+.about-section .about-details .social-link-list .social-link:hover .booking-icon .squircle {
+    fill: var(--secondary-color);
+}
+
 /* Menu section styling */
 .menu-section {
     color: var(--white-color);
@@ -524,6 +543,25 @@ header .navbar {
 .footer-section .policy-text .separator {
     margin: 0 5px;
     color: var(--white-color);
+}
+
+.footer-section .social-link-list .social-link .booking-icon {
+    height: var(--font-size-l);
+    width: auto;
+    vertical-align: middle;
+}
+
+.footer-section .social-link-list .social-link .booking-icon .squircle {
+    fill: var(--white-color);
+    transition: fill 0.2s ease;
+}
+
+.footer-section .social-link-list .social-link .booking-icon .bdot {
+    fill: var(--dark-color);
+}
+
+.footer-section .social-link-list .social-link:hover .booking-icon .squircle {
+    fill: var(--secondary-color);
 }
 
 /* Responsive media query code for max width 1024px */
