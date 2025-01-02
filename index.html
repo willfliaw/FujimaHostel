@@ -158,6 +158,13 @@
                             >
                             </a>
                             <a
+                                href="https://wa.me/5511916594856"
+                                class="social-link"
+                                target="_blank"
+                            >
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                            <a
                                 href="https://www.instagram.com/fujima.hostel/"
                                 class="social-link"
                                 target="_blank"
@@ -471,7 +478,13 @@
                         </li>
                         <li class="contact-info">
                             <i class="fa-brands fa-whatsapp"></i>
-                            <p>+55 (11) 91659-4856</p>
+                            <p>
+                                <a
+                                    href="https://wa.me/5511916594856"
+                                    target="_blank"
+                                    >+55 (11) 91659-4856</a
+                                >
+                            </p>
                         </li>
                         <li class="contact-info">
                             <i class="fa-regular fa-clock"></i>
@@ -492,29 +505,46 @@
                     </ul>
 
                     <form action="#" class="contact-form">
+                        <label for="contact-name" id="contact-name-label">
+                            Your Name:
+                        </label>
                         <input
                             type="text"
                             id="contact-name"
-                            placeholder="Your name"
+                            placeholder="John Doe"
                             class="form-input"
                             required
                         />
+                        <small class="error-message" id="name-error"></small>
+
+                        <label for="contact-email" id="contact-email-label">
+                            Your Email:
+                        </label>
                         <input
                             type="email"
                             id="contact-email"
-                            placeholder="Your email"
+                            placeholder="john.doe@email.com"
                             class="form-input"
                             required
                         />
+                        <small class="error-message" id="email-error"></small>
+
+                        <label for="contact-message" id="contact-message-label">
+                            Your Message
+                        </label>
                         <textarea
                             id="contact-message"
-                            placeholder="Your message"
+                            placeholder="Write your message here..."
                             class="form-input"
                             required
                         ></textarea>
+                        <small class="error-message" id="message-error"></small>
+
                         <button
+                            type="submit"
                             class="button submit-button"
                             id="contact-submit"
+                            disabled
                         >
                             Submit
                         </button>
@@ -537,6 +567,13 @@
                             class="social-link hostelworld-icon-container"
                             target="_blank"
                         >
+                        </a>
+                        <a
+                            href="https://wa.me/5511916594856"
+                            class="social-link"
+                            target="_blank"
+                        >
+                            <i class="fa-brands fa-whatsapp"></i>
                         </a>
                         <a
                             href="https://www.instagram.com/fujima.hostel/"
@@ -568,5 +605,6 @@
         <script src="js/swiper.js"></script>
         <script src="js/lang.js"></script>
         <script src="js/iconFetcher.js"></script>
+        <script src="js/contactForm.js"></script>
     </body>
 </html>
