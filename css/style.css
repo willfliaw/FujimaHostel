@@ -266,22 +266,56 @@ header .navbar {
     color: var(--secondary-color);
 }
 
-.about-section .about-details .social-link-list .social-link .booking-icon {
+.about-section .about-details .social-link-list .social-link .booking-icon,
+.about-section .about-details .social-link-list .social-link .hostelworld-icon {
     height: var(--font-size-l);
     width: auto;
     vertical-align: middle;
 }
 
-.about-section .about-details .social-link-list .social-link .booking-icon .squircle {
+.about-section
+    .about-details
+    .social-link-list
+    .social-link
+    .booking-icon
+    .squircle,
+.about-section
+    .about-details
+    .social-link-list
+    .social-link
+    .hostelworld-icon
+    path:nth-child(1) {
     fill: var(--primary-color);
     transition: fill 0.2s ease;
 }
 
-.about-section .about-details .social-link-list .social-link .booking-icon .bdot {
+.about-section
+    .about-details
+    .social-link-list
+    .social-link
+    .booking-icon
+    .bdot,
+.about-section
+    .about-details
+    .social-link-list
+    .social-link
+    .hostelworld-icon
+    path:nth-child(2) {
     fill: var(--light-color);
 }
 
-.about-section .about-details .social-link-list .social-link:hover .booking-icon .squircle {
+.about-section
+    .about-details
+    .social-link-list
+    .social-link:hover
+    .booking-icon
+    .squircle,
+.about-section
+    .about-details
+    .social-link-list
+    .social-link:hover
+    .hostelworld-icon
+    path:nth-child(1) {
     fill: var(--secondary-color);
 }
 
@@ -545,22 +579,38 @@ header .navbar {
     color: var(--white-color);
 }
 
-.footer-section .social-link-list .social-link .booking-icon {
+.footer-section .social-link-list .social-link .booking-icon,
+.footer-section .social-link-list .social-link .hostelworld-icon {
     height: var(--font-size-l);
     width: auto;
     vertical-align: middle;
 }
 
-.footer-section .social-link-list .social-link .booking-icon .squircle {
+.footer-section .social-link-list .social-link .booking-icon .squircle,
+.footer-section
+    .social-link-list
+    .social-link
+    .hostelworld-icon
+    path:nth-child(1) {
     fill: var(--white-color);
     transition: fill 0.2s ease;
 }
 
-.footer-section .social-link-list .social-link .booking-icon .bdot {
+.footer-section .social-link-list .social-link .booking-icon .bdot,
+.footer-section
+    .social-link-list
+    .social-link
+    .hostelworld-icon
+    path:nth-child(2) {
     fill: var(--dark-color);
 }
 
-.footer-section .social-link-list .social-link:hover .booking-icon .squircle {
+.footer-section .social-link-list .social-link:hover .booking-icon .squircle,
+.footer-section
+    .social-link-list
+    .social-link:hover
+    .hostelworld-icon
+    path:nth-child(1) {
     fill: var(--secondary-color);
 }
 
