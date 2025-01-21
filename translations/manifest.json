@@ -2,6 +2,7 @@
     "languages": [
         { "code": "pt", "label": "PT" },
         { "code": "en", "label": "EN" },
-        { "code": "fr", "label": "FR" }
+        { "code": "fr", "label": "FR" },
+        { "code": "ja", "label": "JA" }
     ]
 }
