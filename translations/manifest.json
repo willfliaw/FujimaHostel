@@ -3,6 +3,7 @@
         { "code": "pt", "label": "PT" },
         { "code": "en", "label": "EN" },
         { "code": "fr", "label": "FR" },
-        { "code": "ja", "label": "JA" }
+        { "code": "ja", "label": "JA" },
+        { "code": "zh", "label": "ZH" }
     ]
 }
